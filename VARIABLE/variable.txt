@@ -1,0 +1,6 @@
+1.  variable can not start with the number .
+2.  variable contain only alpha-numeric value [0-9 and a-z and _] 
+3.  A variable name must start with a letter or the underscore character.
+4.   variable names are case sensitive 
+      which means [age AGE and Age three differnt variable]
+5. we can not combine string and number in python ,python gives u error.
