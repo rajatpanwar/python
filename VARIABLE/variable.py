@@ -39,3 +39,17 @@ x="Awesome"
   def fun()                //def keyword is used in python to define the function and we can write def before the function name
  print("python is "+x)
  fun()                   //output is --pyton is Awesome
+ 
+ 
+ 
+ <---- 5th example----->
+ 
+ x="Awesome"
+
+def fun():
+ x="easy"
+ print("Python is "+x)
+fun()
+       
+print("python is"+x)      //output is--Python is easy
+                          //output is--python isAwesome
