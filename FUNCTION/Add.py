@@ -15,4 +15,12 @@ n2=int(input("enter the second no"))
 ttal=n1+n2
 print(str(ttal))    //output is--8
 
+<------example3----->
+
+n1=str(5)
+n2=int("7")  //chnage the string into int
+n3=float("8")  //change input string to float
+total=n2+n3
+print("total is"+total)       //output is ----15.0  in float
+
 
