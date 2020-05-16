@@ -5,5 +5,12 @@ for i in range(0,n1):
       print("*",end=" ")
    
    print()
-
+   
+   
+   //output is
+   *
+   **
+   ***
+   ****
+   *****
    
