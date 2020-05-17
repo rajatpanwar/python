@@ -7,7 +7,7 @@ print(i)
 ist=[]
 no=int(input("enter the no of elements in the list: "))
 for i in range(0,no):
-    list.append(input("enter the item  "))
+    list.append(input("enter the item  "))     //append function is used to add the element in list
 print("print the list item ")
 for i in list:
     print(i,end=" ")
