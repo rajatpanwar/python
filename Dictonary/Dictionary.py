@@ -113,7 +113,7 @@ for i,j in detail.items():      //using items() function we can print  key and v
     "course":"B.Tech",
     
 }
-del detail["sapid"]
+del detail["sapid"]      // use del we can remove the key and value for the dctionary
 print(detail)   
   
   
