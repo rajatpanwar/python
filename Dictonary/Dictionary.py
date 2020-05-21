@@ -35,3 +35,24 @@ print("Name :%s "%detail["Name"])
 print("sapid :%d "%detail["sapid"])
 print("Roll no :%d "%detail["Roll no"])
 print("course :%s "%detail["course"])
+
+<------------example4------------------->
+// add new data in the dictionary
+detail= {
+    "Name":"Rajat panwar",
+    "sapid":500069414,
+    "Roll no":80,
+    "course":"B.Tech",
+    
+}
+print(detail)
+print("<------enter new detail---------->")
+detail["Name"]=input("Name ")
+detail["sapid"]=int(input("sapid "))
+detail["Roll no"]=int(input("Roll no "))
+detail["course"]=input("course ")
+print("-----printing the new data-------")
+print(detail)
+
+
+
