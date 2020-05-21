@@ -7,3 +7,16 @@ thisdict =	{
   "year": 1964
 }
 print(thisdict)
+
+<-------example2--------->
+// how to access the element in dictionary
+
+detail= {
+    "Name":"Rajat panwar",
+    "sapid":500069414,
+    "Roll no":80,
+    "course":"B.Tech",
+    
+}
+x=detail["Name"]
+print(x)
