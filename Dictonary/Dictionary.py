@@ -77,5 +77,22 @@ detail= {
 }
 for i in detail:
     print(i)       //output is --- Name,sapid,Rollno,course
-
+    
+  <-------------example7--------------------->
+  //print all the value of key attribute
+  detail= {
+    "Name":"Rajat panwar",
+    "sapid":500069414,
+    "Roll no":80,
+    "course":"B.Tech",
+    
+}
+for i in detail:
+    print(detail[i])
+    
+    //output is---  Rajat Panwar
+                    500069414
+                    80
+                    B.Tech
+      
 
