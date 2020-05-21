@@ -102,7 +102,7 @@ detail= {
     "course":"B.Tech",
     
 }
-for i,j in detail.items():
+for i,j in detail.items():      //using items() function we can print  key and value both
     print(i,j)
   
   
