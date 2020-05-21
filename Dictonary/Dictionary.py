@@ -54,5 +54,17 @@ detail["course"]=input("course ")
 print("-----printing the new data-------")
 print(detail)
 
+<-------example5-------------->
+//similiar to example3
+detail= {
+    "Name":"Rajat panwar",
+    "sapid":500069414,
+    "Roll no":80,
+    "course":"B.Tech",
+    
+}
+x=detail.get("Name")
+print(x)
+
 
 
