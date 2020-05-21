@@ -66,5 +66,16 @@ detail= {
 x=detail.get("Name")      //we can use get function to access the element 
 print(x)
 
+<-------example6------------>
+//print all the attribute on by one using for loop
+detail= {
+    "Name":"Rajat panwar",
+    "sapid":500069414,
+    "Roll no":80,
+    "course":"B.Tech",
+    
+}
+for i in detail:
+    print(i)       //output is --- Name,sapid,Rollno,course
 
 
