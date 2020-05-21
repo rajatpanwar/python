@@ -94,5 +94,21 @@ for i in detail:
                     500069414
                     80
                     B.Tech
-      
+ <------------example8------------------------>
+detail= {
+    "Name":"Rajat panwar",
+    "sapid":500069414,
+    "Roll no":80,
+    "course":"B.Tech",
+    
+}
+for i,j in detail.items():
+    print(i,j)
+  
+  
+  
+  
+  
+  
+  
 
