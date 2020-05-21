@@ -105,7 +105,16 @@ detail= {
 for i,j in detail.items():      //using items() function we can print  key and value both
     print(i,j)
   
-  
+  <-----------------------example9---------------->
+  detail= {
+    "Name":"Rajat panwar",
+    "sapid":500069414,
+    "Roll no":80,
+    "course":"B.Tech",
+    
+}
+del detail["sapid"]
+print(detail)   
   
   
   
