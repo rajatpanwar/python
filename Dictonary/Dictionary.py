@@ -20,3 +20,18 @@ detail= {
 }
 x=detail["Name"]
 print(x)
+
+<-----------example 3----- ------------>
+//access the element
+
+detail= {
+    "Name":"Rajat panwar",
+    "sapid":500069414,
+    "Roll no":80,
+    "course":"B.Tech",
+    
+}
+print("Name :%s "%detail["Name"])
+print("sapid :%d "%detail["sapid"])
+print("Roll no :%d "%detail["Roll no"])
+print("course :%s "%detail["course"])
