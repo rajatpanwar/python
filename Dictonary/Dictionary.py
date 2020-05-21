@@ -63,7 +63,7 @@ detail= {
     "course":"B.Tech",
     
 }
-x=detail.get("Name")
+x=detail.get("Name")      //we can use get function to access the element 
 print(x)
 
 
