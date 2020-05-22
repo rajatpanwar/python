@@ -53,8 +53,9 @@ def fun_list(list1):
     
 list1=[10,20,30]
 
-fun_list(list1);
-print("list is :",list1)
+fun_list(list1);     //function calling 
+                           //till here function  print the list
+print("list is :",list1)   //outside the function again rint the list
     
     
        
