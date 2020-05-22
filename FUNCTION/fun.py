@@ -16,5 +16,17 @@ def my_function():
 def function():
   print("hello world")
 function()  
+
+
+<-------------------------example2-------------------------------------->
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+
+def add():
+    c=a+b;
+    print(c)
+
+add()    
+    
   
 
