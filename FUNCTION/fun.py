@@ -25,8 +25,15 @@ b=int(input("enter second number"))
 def add():
     c=a+b;
     print(c)
+ add()   
+    
+ <-------------------example3----------------------------------------->
+//pass the paramenter in the function
 
-add()    
+def function(Name):
+    print("Hi",Name)
+function("Rajat")    
+       
     
   
 
