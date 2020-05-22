@@ -56,6 +56,17 @@ list1=[10,20,30]
 fun_list(list1);     //function calling 
                            //till here function  print the list
 print("list is :",list1)   //outside the function again rint the list
+
+<-------------------example6----------------------------->
+name=input("enter the name :- ")   
+def Hello(name):
+    print("Hi",name)
+    return name;
+ 
+print(Hello(name))   
+    
+    
+    
     
     
        
