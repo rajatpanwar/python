@@ -41,7 +41,21 @@ b=int(input("enter the second no"))
 def sub(x,y):
     c=a-b;
     return c;
-print("substraction is ",sub(a,b))    
+print("substraction is ",sub(a,b))   
+
+<------------------example5------------------------>
+//print the list through a function
+
+def fun_list(list1):
+    list1.append(40)
+    list1.append(5)
+    print(list1)
+    
+list1=[10,20,30]
+
+fun_list(list1);
+print("list is :",list1)
+    
     
        
     
