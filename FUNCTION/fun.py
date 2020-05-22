@@ -32,7 +32,17 @@ def add():
 
 def function(Name):
     print("Hi",Name)
-function("Rajat")    
+function("Rajat")
+
+<-----------------example4------------------------------->
+
+a=int(input("enter the first no "))
+b=int(input("enter the second no"))
+def sub(x,y):
+    c=a-b;
+    return c;
+print("substraction is ",sub(a,b))    
+    
        
     
   
