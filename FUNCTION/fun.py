@@ -5,3 +5,16 @@ AVOID REWRITING
 REUSABLITY
 WE CAN TRACK A LARGE PYTHON PROGRAM EASILY WHEN IT IS DEVIDED INTO MULTIPLE FUNCTION
 
+<-------------------------SYNTAX-------------------------------------->
+In python, we can use def keyword to define the function.
+
+def my_function():  
+    function-suite   
+    return <expression>  
+  
+<---------------------------example1------------------------------------>
+def function():
+  print("hello world")
+function()  
+  
+
