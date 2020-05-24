@@ -15,3 +15,8 @@ n=int(input("enter a number"))
 b=lambda a:a*n;
 for i in range(1,11):
     print(n,"X",i,"=",b(i))
+    
+    <------------------examle4----------------->
+    list1=[1,2,3,123,15,221,300,303]
+oddlist=list(filter(lambda x:(x%3==0),list1))
+print(oddlist)
