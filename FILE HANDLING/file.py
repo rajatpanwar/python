@@ -13,4 +13,7 @@ fileptr=open("file.txt","r")          //open the file
 if fileptr:
   print("file open successsfully")
   fileptr.close()                          //close the opened file
+                                            //here is close function no attribute so the program will show the error 
+                                           //this is the only use that how to use the function
+      
              
