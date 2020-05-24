@@ -2,5 +2,10 @@
 
 
 <-----------example1--------------------->
-x=lambda a:a+10;
+x=lambda a:a+10;                       //a is an argument and a+10 is an expression which got evaluated and returned.
 print("sum is",x(30))  //output is --  40
+
+<------------------example2--------------------->
+x=lambda a,b:a+b;       //paas two argumant in lambda function
+
+print("sum is",x(20,50))   
