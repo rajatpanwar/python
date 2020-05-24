@@ -7,3 +7,9 @@
 
 
 file object = open(<file-name>, <access-mode>, <buffering>)  //the syntax to use the open() function is
+
+<----------------example1----------------------->
+fileptr=open("file.txt","r")
+if fileptr:
+  print("file open successsfully")
+             
