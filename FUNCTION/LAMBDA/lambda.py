@@ -9,3 +9,9 @@ print("sum is",x(30))  //output is --  40
 x=lambda a,b:a+b;       //paas two argumant in lambda function
 
 print("sum is",x(20,50))   
+
+<--------------example3--------------------->
+n=int(input("enter a number"))
+b=lambda a:a*n;
+for i in range(1,11):
+    print(n,"X",i,"=",b(i))
