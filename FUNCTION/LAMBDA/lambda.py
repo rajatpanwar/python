@@ -19,4 +19,4 @@ for i in range(1,11):
     <------------------examle4----------------->
     list1=[1,2,3,123,15,221,300,303]
 oddlist=list(filter(lambda x:(x%3==0),list1))
-print(oddlist)
+print(oddlist)    //output is----  3,123,15,300,303
