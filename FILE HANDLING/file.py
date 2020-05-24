@@ -9,8 +9,8 @@
 file object = open(<file-name>, <access-mode>, <buffering>)  //the syntax to use the open() function is
 
 <----------------example1----------------------->
-fileptr=open("file.txt","r")
+fileptr=open("file.txt","r")          //open the file
 if fileptr:
   print("file open successsfully")
-  fileptr.close()
+  fileptr.close()                          //close the opened file
              
