@@ -4,7 +4,7 @@ def change_string (str):
   
 string1 = "Hi I am there"  
   
-#calling the function  
-change_string(string1)  
+ 
+change_string(string1)                                        #call the function
   
 print("printing the string outside function :",string1)  
