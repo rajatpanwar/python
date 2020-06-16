@@ -1,4 +1,4 @@
-def is_leap(n):
+def is_leap(n):             //define the function
     if n % 400 == 0:
         return True
     if n % 100 == 0:
@@ -9,5 +9,5 @@ def is_leap(n):
 
 
 
-year = int(input())
+year = int(input())       //take input from user
 print(is_leap(year))
