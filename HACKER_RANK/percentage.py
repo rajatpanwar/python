@@ -1,9 +1,9 @@
-n = int(input())
+n = int(input())                        //take input from users
 
-student_marks = {}
+student_marks = {}                 //make a array
 
 for _ in range(n):
-    name, *line = input().split()
+    name, *line = input().split()          //The split() method splits a string into a list
     scores = list(map(float, line))
     student_marks[name] = scores
 query_name = input()
