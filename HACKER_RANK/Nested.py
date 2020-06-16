@@ -1,14 +1,14 @@
 students = []
 score_list = []
 
-for _ in range(int(input())):
+for _ in range(int(input())):    //teake input from user
 
     temp = []
 
     name = input()
     score = float(input())
 
-    temp.append(name)
+    temp.append(name)     //the append() method in python adds a single item to the existing list
     temp.append(score)
 
     score_list.append(score)
