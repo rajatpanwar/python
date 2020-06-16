@@ -8,4 +8,4 @@ if __name__ == '__main__':
         scores = list(map(float, line))
         student_marks[name] = scores
     query_name = input()
-    print(f'{avg(student_marks[query_name]):.2f}'
+    print(f'{avg(student_marks[query_name]):.2f}')
