@@ -17,6 +17,7 @@ print(name1 + 3)   //output---- show error
 print(name1 str(3))   //output is ---- rajat3
 
 
+
 <----example3----->
 
 we can multiply a string and number
