@@ -14,6 +14,6 @@ for i in no:
     
   <---------------------example3------------------->
 tuple1 = (1, 2, 3, 4, 5)  
-print(tuple1[-1])  
+print(tuple1[-1])    //count from last index
 print(tuple1[-4])  //outpput is 5 and 2
 
