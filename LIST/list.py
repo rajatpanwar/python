@@ -4,6 +4,7 @@ Dep2=["ECE",15]
 HOD_CS=["MONIT KAPPOR",20]
 HOD_ECE=["PArteek jha",35]
 
+
 print("<----print employee_detail---->")
 print("Name %s,age %s,ID %d"%(emp[0],emp[1],emp[2]))
 print("<---print Dep detail---->")
