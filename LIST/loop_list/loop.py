@@ -3,7 +3,7 @@ for i in emp:
 print(i)
 
 
-,<--------another example------->
+<--------another example------->
 ist=[]
 no=int(input("enter the no of elements in the list: "))
 for i in range(0,no):
