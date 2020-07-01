@@ -1,6 +1,6 @@
 import textwrap
 from collections import OrderedDict
-def merge_the_tools(string, k):
+def merge_the_tools(string, k):                  //define function
     list2=[]
 #devides string into n equal parts of size k
     list1 = textwrap.wrap(string, k)
