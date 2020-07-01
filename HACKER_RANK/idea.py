@@ -4,7 +4,7 @@ A=set(input().split(' '))
 B=set(input().split(' '))
 happiness=0
 
-for i in l:
+for i in l:     
     if i in A:
         happiness+=1
     if i in B:
