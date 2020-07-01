@@ -1,4 +1,5 @@
-def swap_case(s):
+//swap the function
+def swap_case(s):    //define function
     a = ""
     for let in s:
         if let.isupper() == True:
