@@ -1,4 +1,4 @@
-from collections import defaultdict
+//from collections import defaultdict
 
 n, m = map(int, input().split())
 d = defaultdict(lambda: -1)
