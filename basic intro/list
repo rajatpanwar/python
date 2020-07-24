@@ -1,5 +1,5 @@
-list=[1,"hi","python",2]
-print(type(list))
+list=[1,"hi","python",2]                   //lists are similar to the array list in c
+print(type(list))                   
 print(list)
 print(list[3:])
 print(list[0:2])
