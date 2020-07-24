@@ -8,6 +8,7 @@ print("hello"+name)
 
 
 
+
 <<<------example of input------->
 name = input("enter the name")
 print("hello"+name)
