@@ -1,4 +1,4 @@
-tup=("hi","python",5)
+tup=("hi","python",5)               //tuple is similar to lists
 print(type(tup))                    //this will tell the type of the tuple
 print(tup)
 print(tup[1:])
