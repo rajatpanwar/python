@@ -1,5 +1,5 @@
 tup=("hi","python",5)
-print(type(tup))
+print(type(tup))                    //this will tell the type of the tuple
 print(tup)
 print(tup[1:])
 print(typ[0:1])
