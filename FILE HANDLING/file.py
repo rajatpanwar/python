@@ -29,6 +29,15 @@ content=fileptr.readlines()
 print(content)
 fileptr.close()
 
+
+<--------------------example4(read from the file through for loop)--------------------------->
+
+fileptr=open("read1.txt","r")
+for i in fileptr:
+  print(i)
+
+
+
       
       
              
