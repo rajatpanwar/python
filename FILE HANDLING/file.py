@@ -22,6 +22,13 @@ if fileptr:
 fileptr=open("file.txt","w")
 fileptr.write("python is a modern modern day language it makes thing so simple")
 fileptr.close()
+
+<----------------example3(how to read froma file)--------------------->
+fileptr=open("read.txt","r")
+content=fileptr.readlines()
+print(content)
+fileptr.close()
+
       
       
              
