@@ -12,7 +12,8 @@ count=0;
 for i in no:
     print("tupple[%d]=%s"%(count,i))
     
-  <---------------------example3------------------->
+ 
+<---------------------example3------------------->
 tuple1 = (1, 2, 3, 4, 5)  
 print(tuple1[-1])    //count from last index
 print(tuple1[-4])  //outpput is 5 and 2
