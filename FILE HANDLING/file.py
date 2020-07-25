@@ -17,4 +17,11 @@ if fileptr:
                                             //here is close function no attribute so the program will show the error 
                                            //this is the only use that how to use the function
       
+ <---------------example2 (how to write in a file)------------------------>
+
+fileptr=open("file.txt","w")
+fileptr.write("python is a modern modern day language it makes thing so simple")
+fileptr.close()
+      
+      
              
