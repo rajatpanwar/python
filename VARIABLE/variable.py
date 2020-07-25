@@ -8,6 +8,7 @@ print(z)         //output is rajat , rithik ,nipun
 
 <-----2nd example---->
 
+
 x = y = z = "Rajat"
 print(x)
 print(y)
