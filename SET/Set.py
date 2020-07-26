@@ -5,6 +5,7 @@ print(set)
 
 
 <--------example2----------->
+
 Days={"Sunday","Monday","Tuesday","Wednesday","Thrusday","Friday","Saturday"}
 print(Days)
 print(type(Days))
