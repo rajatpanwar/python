@@ -17,6 +17,7 @@ age = input("enter the age")
 print("age is"+age)
 
 
+
 <------another example of input---->
 print("Enter your name:")
 x = input()
