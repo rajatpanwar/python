@@ -4,4 +4,5 @@ print(list)
 print(list[3:])
 print(list[0:2])
 print(list+list)
+
 print(list*3)
