@@ -1,6 +1,6 @@
 
     
-print ("\U0001F601")
+print ("\U0001F601")     #emoji code
 print("\U0001F602")
 
     
