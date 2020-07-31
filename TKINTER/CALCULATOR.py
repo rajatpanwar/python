@@ -30,3 +30,15 @@ label3 = tk.Label(top,text="RESULT : ")
 label3.config(font=('helvetica', 10))
 canvas1.create_window(100,240,window=label3)
 
+
+def add():  
+    v1 = entry1.get()
+    v2 = entry2.get()
+  
+    label4 = tk.Label(top, text= float(v1)+float(v2),font=('helvetica', 10, 'bold'),bg='white')
+    canvas1.create_window(210, 240, window=label4)
+      
+btnAdd = tk.Button(text='+', command=add, bg='red', fg='black', font=('helvetica', 11, 'bold'), width = 5)
+canvas1.create_window(90, 190, window=btnAdd)
+
+
