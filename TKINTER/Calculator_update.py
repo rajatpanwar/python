@@ -70,6 +70,8 @@ btn5.grid(row = 2 , column = 1 ,ipady = 4, ipadx = 2)
 btn6 = ttk.Button(top, text = '6' , width = 5 ,  command = lambda : press(6) )
 btn6.grid(row = 2 , column = 2,ipady = 4, ipadx = 3)
 
+btnplus = ttk.Button(top, text = '+' , width = 8 ,  command = lambda : press("+") )
+btnplus.grid(row = 2 , column = 3,ipady = 3, ipadx = 2)
 
     
     
