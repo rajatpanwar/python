@@ -35,4 +35,13 @@ if __name__ == "__main__":     #main program
     top.configure(bg="green")
     
     
+#create the entry box to display number and arithmatic operator
+
+    eq = tk.StringVar()
+    entry = ttk.Entry(top,width = 40, state = "readonly",background = "red", textvariable = eq)
+    entry.grid(row=0, column=10, ipadx = 6, ipady = 8)
+    entry.focus()
+    
+    
+    
 
