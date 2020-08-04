@@ -2,6 +2,7 @@ from datetime import date
 import calendar
 T=int(input())
 for x in range(T):
+   
     t1=list(map(str,input().split(" ")))
     t2=list(map(str,input().split(" ")))
     hrs=int(''.join(list(t1[4])[0:2]))-(int(''.join(list(t2[4])[0:2])))
