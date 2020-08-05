@@ -14,3 +14,12 @@ def register():
     global password_entry
     username = StringVar()
     password = StringVar()
+    Label(reg_screen,text="enter detail below",bg="light blue").pack()
+    Label(reg_screen, text="").pack()
+    username_lable = Lable(reg_screen, textvariable="username")
+    username_lable.pack()
+    username_entry = Entry(reg_screen, textvariable=username)
+    username_entry.pack()
+    
+    
+    
