@@ -8,3 +8,9 @@ def register():
     reg_screen = Toplevel(screen)
     reg_screen.title("Register")
     reg_screen.geometry("300x250")
+    global username
+    global password
+    global username_entry
+    global password_entry
+    username = StringVar()
+    password = StringVar()
