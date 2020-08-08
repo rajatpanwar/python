@@ -108,6 +108,16 @@ def password_not_recognised():
     Label(password_not_rec_screen,text="Invalid Password").pack()
     Button(password_not_rec_screen,text="Ok",command=delete_password_not_recognised).pack()
     
+     #DESIGN FOR USER NOT FOUND
+def user_not_found():
+    global user_not_found_screen
+    user_not_found_screen=Toplevel(screen)
+    user_not_found_screen.title("Success")
+    user_not_found_screen.geometry("150x100")
+    Label(user_not_found_screen,text="user Not Found").pack()
+    Button(user_not_found_screen,text="Ok",command=delete_user_not_found_screen).pack()
+
+    
     
     
     
