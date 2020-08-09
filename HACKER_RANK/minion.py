@@ -9,6 +9,7 @@ def minion_game(string):
     elif sp==kp :print("Draw") 
     else:print("Kevin",kp)
 
+
 if __name__ == '__main__':
     s = input()
     minion_game(s)
