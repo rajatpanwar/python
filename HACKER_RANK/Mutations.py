@@ -4,6 +4,8 @@ def mutate_string(string, position, character):    //create a function
     return ''.join(list2)
 
   
+
+    
 if __name__ == '__main__':     //main functiom
     s = input()
     i, c = input().split()
