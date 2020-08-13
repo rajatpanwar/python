@@ -31,6 +31,7 @@ detail= {
     "course":"B.Tech",
     
 }
+
 print("Name :%s "%detail["Name"])
 print("sapid :%d "%detail["sapid"])
 print("Roll no :%d "%detail["Roll no"])
